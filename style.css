@@ -1,0 +1,10 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+#left {
+    background-color: white;
+    height: 953px;
+    width: 30%;
+}
