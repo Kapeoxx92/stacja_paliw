@@ -5,6 +5,32 @@ body {
 
 #left {
     background-color: white;
-    height: 953px;
+    height: 992px;
     width: 30%;
 }
+
+.slidecontainer {
+    margin-left: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 300px;
+    border-radius: 5px;
+    background: #d3d3d3;
+  }
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0000ff;
+    cursor: pointer;
+  }
+
+  #btn {
+    margin-top: 20px;
+    margin-left: 300px;
+  }
