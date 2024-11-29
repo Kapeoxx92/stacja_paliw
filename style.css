@@ -3,9 +3,13 @@ body {
     margin: 0;
 }
 
+#page {
+  display: flex;
+}
+
 #left {
     background-color: white;
-    height: 992px;
+    height: 955px;
     width: 30%;
 }
 
@@ -33,4 +37,11 @@ body {
   #btn {
     margin-top: 20px;
     margin-left: 300px;
+  }
+
+  table, th, td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    width: 100%
   }

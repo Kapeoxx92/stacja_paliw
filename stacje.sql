@@ -40,9 +40,9 @@ CREATE TABLE `adresy` (
 
 INSERT INTO `adresy` (`id`, `miasto`, `ulica`, `numer`) VALUES
 (1, 'gdansk', 'ulica1', 1),
-(2, 'gdansk', 'ulica2', 2),
-(3, 'gdansk', 'ulica3', 3),
-(4, 'gdansk', 'ulica4', 4);
+(2, 'sopot', 'ulica2', 2),
+(3, 'warszawa', 'ulica3', 3),
+(4, 'olsztyn', 'ulica4', 4);
 
 -- --------------------------------------------------------
 
