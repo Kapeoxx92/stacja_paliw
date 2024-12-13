@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(177, 177, 177);
     margin: 0;
 }
 
@@ -43,5 +43,5 @@ body {
     border-collapse: collapse;
     border-style: solid;
     border-color: black;
-    width: 100%
+    width: 400px;
   }

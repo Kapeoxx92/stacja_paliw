@@ -35,25 +35,27 @@
             <?php
             $server = "localhost";
             $username = "root";
-            $password = " ";
+            $password = "";
             $db = "stacje";
 
-            $con = mysqli_connect($server, $username, $password, $db);
+            $conn = mysqli_connect($server, $username, $password, $db);
 
-            mysqli_close($con);
+           $sql = "SELECT adresy.miasto, .stacje_paliw.adres, stacje_paliw.cena FROM stacje_paliw, adresy";
+           $result = $conn->query($sql);
 
-            echo "<table= border=1, solid, black>;
+            echo "<table>
                 <tr>
                     <th>miasto</th>
                     <th>adres</th>
-                    <th>cenapaliwa</th>
+                    <th>cena paliwa</th>
                 </tr>
                 <tr>
-                    <td>gdansk</td>
-                    <td>adres1</td>
-                    <td>5 zł</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>"
+
             ?>
         </div>
     </div>
@@ -67,6 +69,9 @@
 
         slider.oninput = function() {
             output.innerHTML = this.value;
+        }
+        slider2.oninput = function() {
+            output2.innerHTML = this.value;
         }
     </script>
 </body>
